@@ -3,3 +3,15 @@ font-family:    Serif;
 font-size:      6em;
 color:          black !important;
 }
+.carousel-info {
+    font-size: 2em;
+    color: black;
+}
+.dropup,
+.dropdown {
+  position: absolute;
+    z-index: 20;
+}
+.dropdown-toggle:after{
+ display:none;
+}
