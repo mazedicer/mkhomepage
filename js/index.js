@@ -57,4 +57,18 @@ $(document).ready(function(){
         var left_position = ($(window).width() / 2) - 100;
         $("#logo_div").offset({left:left_position});
     }
+    //cards
+    var card_template = `<div class="col-md-3 col-sm-6">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="{img_source}" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">{t_name}</h4>
+                <p class="card-text">{t_description}</p>
+              </div>
+                </div>
+            </div>`;
+    var replace = ["{img_source}","{t_name}","{t_description}"];
+    var replace_with = ["Mario", "John", "Dan"];
+    var my_card_template = card_template.replaceArray(replace, replace_with);
+    alert(my_card_template);
 });
