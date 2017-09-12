@@ -14,9 +14,15 @@ color:          black !important;
 }
 .dropdown-item {
     font-size: 2em;
+    cursor: pointer;
 }
 .dropdown-toggle:after{
  display:none;
+}
+.ps-item, .c-item {
+    display:none;
+        font-size: 1.5em;
+    text-align: right;
 }
 #carousel-row h1 {
     font-family: monospace;
@@ -25,6 +31,7 @@ color:          black !important;
         position: absolute;
     z-index: 19;
     text-align: center;
+    font-weight: bold;
     width: 100%;
     top: 100px;
     text-shadow: 2px 2px #333;

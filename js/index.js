@@ -1,4 +1,21 @@
 $(document).ready(function(){
+    //homepage dropdown menu
+        $('.dropdown-item').on('click', function (e) {
+            openSubMenu($(".dropdown-item").index(this));
+            e.stopPropagation();
+    });
+    function openSubMenu(elem){
+        console.log(elem);
+            switch(elem){
+                case 1:
+                    $(".dropdown-item.ps-item").toggle();
+                    break;
+                case 6:
+                    $(".dropdown-item.c-item").toggle();
+                    break;
+                    }
+    }
+    
     //hide fixes
     var elements_to_hide_720 = [".carousel-info"];
     var elements_to_hide_1000 = ["h1"];
