@@ -1,0 +1,31 @@
+.carousel-caption h2 {
+font-family:    Serif;
+    font-size:      4em;
+color:          black !important;
+}
+.carousel-info {
+    font-size: 2em;
+    color: black;
+}
+.dropup,
+.dropdown {
+  position: absolute;
+    z-index: 20;
+}
+.dropdown-item {
+    font-size: 2em;
+}
+.dropdown-toggle:after{
+ display:none;
+}
+#carousel-row h1 {
+    font-family: monospace;
+    font-size: 5em;
+    color:#666;
+        position: absolute;
+    z-index: 19;
+    text-align: center;
+    width: 100%;
+    top: 100px;
+    text-shadow: 2px 2px #333;
+}
