@@ -37,7 +37,7 @@ color:          black !important;
     text-align: center;
     font-weight: bold;
     width: 100%;
-    top: 180px;
+    padding-top:150px;
     text-shadow: 2px 2px #333;
 }
 #logo_div {
@@ -48,4 +48,8 @@ color:          black !important;
 }
 #our_team_div {
     text-align: center;
+}
+#splash_content h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: deepskyblue;
 }
